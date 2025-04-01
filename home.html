@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AbroadThings Study Abroad & Travel Agency</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles1.css">
+  <link rel="icon" type="image/x-icon" href="images/abroadthingslogo3.ico">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/AbroadThingsLogo3.png" alt=""  class="logo">
+          <span class="text-primary"></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destinations">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#programs">Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary text-white px-4 ms-3" href="#contact">Get Started</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero d-flex align-items-center text-center">
+      <div class="container hero-content">
+        <h1 class="mb-4 animate__animated animate__fadeInUp">Transform Your Future With Study Abroad</h1>
+        <p class="lead mb-5 animate__animated animate__fadeInUp animate__delay-1s">Discover life-changing educational
+          opportunities and unforgettable experiences in the world's most prestigious institutions.</p>
+        <a href="#programs" class="btn btn-primary btn-lg animate__animated animate__fadeInUp animate__delay-2s">Explore
+          Programs</a>
+      </div>
+
+      <!-- Floating Search Box -->
+      <div class="floating-search">
+        <div class="row g-3">
+          <div class="col-md-4">
+            <select class="form-select form-select-lg">
+              <option selected>Select Destination</option>
+              <option>United Kingdom</option>
+              <option>United States</option>
+              <option>Canada</option>
+              <option>Australia</option>
+              <option>Germany</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <select class="form-select form-select-lg">
+              <option selected>Program Type</option>
+              <option>Undergraduate</option>
+              <option>Graduate</option>
+              <option>Summer School</option>
+              <option>Language Course</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <select class="form-select form-select-lg">
+              <option selected>Duration</option>
+              <option>1-3 Months</option>
+              <option>3-6 Months</option>
+              <option>6-12 Months</option>
+              <option>1+ Year</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <button class="btn btn-primary btn-lg w-100">Search</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section bg-light py-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3 mb-4 mb-md-0">
+            <div class="country-stat">50+</div>
+            <p class="text-muted">Countries</p>
+          </div>
+          <div class="col-md-3 mb-4 mb-md-0">
+            <div class="country-stat">500+</div>
+            <p class="text-muted">Universities</p>
+          </div>
+          <div class="col-md-3 mb-4 mb-md-0">
+            <div class="country-stat">10k+</div>
+            <p class="text-muted">Students Placed</p>
+          </div>
+          <div class="col-md-3">
+            <div class="country-stat">98%</div>
+            <p class="text-muted">Success Rate</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="section">
+      <div class="container">
+        <h2 class="section-title text-center">Popular Destinations</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="destination-card">
+              <img src="https://images.unsplash.com/photo-1526129318478-62ed807ebdf9?q=80&w=1024&auto=format&fit=crop"
+                alt="United Kingdom" class="img-fluid">
+              <span class="destination-badge">Most Popular</span>
+              <div class="card-body">
+                <h5>United Kingdom</h5>
+                <p class="text-muted">Home to prestigious universities like Oxford, Cambridge, and Imperial College
+                  London.</p>
+                <a href="#" class="btn btn-outline-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="destination-card">
+              <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=1024&auto=format&fit=crop"
+                alt="United States" class="img-fluid">
+              <span class="destination-badge">Featured</span>
+              <div class="card-body">
+                <h5>United States</h5>
+                <p class="text-muted">Experience education at Ivy League schools and enjoy American campus culture.</p>
+                <a href="#" class="btn btn-outline-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="destination-card">
+              <img src="https://images.unsplash.com/photo-1521747116042-5a810fda9664?q=80&w=1024&auto=format&fit=crop" alt="Canada"
+                class="img-fluid">
+              <span class="destination-badge">Best Value</span>
+              <div class="card-body">
+                <h5>Canada</h5>
+                <p class="text-muted">Quality education with excellent post-study work opportunities and immigration
+                  pathways.</p>
+                <a href="#" class="btn btn-outline-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-5">
+          <a href="#" class="btn btn-outline-primary btn-lg">View All Destinations</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title text-center">Our Programs</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-100">
+              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1024&auto=format&fit=crop"
+                alt="Undergraduate Programs" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Undergraduate</h5>
+                <p class="card-text">Bachelor's degrees across all major disciplines with scholarship opportunities.</p>
+              </div>
+              <div class="card-footer bg-white border-0">
+                <a href="program1.html" class="btn btn-sm btn-outline-primary w-100">Explore Programs</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-100">
+              <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1024&auto=format&fit=crop"
+                alt="Graduate Programs" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Graduate</h5>
+                <p class="card-text">Master's and PhD programs at top-ranked universities worldwide.</p>
+              </div>
+              <div class="card-footer bg-white border-0">
+                <a href="program2.html" class="btn btn-sm btn-outline-primary w-100">Explore Programs</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-100">
+              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1024&auto=format&fit=crop"
+              
+                alt="Summer Schools" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Summer Schools</h5>
+                <p class="card-text">Short-term academic programs combined with cultural experiences.</p>
+              </div>
+              <div class="card-footer bg-white border-0">
+                <a href="program3.html" class="btn btn-sm btn-outline-primary w-100">Explore Programs</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card h-100">
+              <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?q=80&w=1024&auto=format&fit=crop"
+                alt="Language Courses" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Language Courses</h5>
+                <p class="card-text">Intensive language programs to prepare for academic studies abroad.</p>
+              </div>
+              <div class="card-footer bg-white border-0">
+                <a href="program4.html" class="btn btn-sm btn-outline-primary w-100">Explore Programs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="video-section">
+      <div class="container">
+        <h2 class="section-title text-center">Experience Student Life Abroad</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Student Life Abroad"
+                allowfullscreen></iframe>
+            </div>
+            <div class="text-center mt-5">
+              <h4>Discover the Horizon Experience</h4>
+              <p class="text-muted">Watch how our students navigate their international education journey and build
+                lifelong memories.</p>
+              <a href="#contact" class="btn btn-primary mt-3">Start Your Journey Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title text-center">Our Services</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="service-box text-center">
+              <div class="service-icon">
+                <i class="fas fa-university"></i>
+              </div>
+              <h4>University Admissions</h4>
+              <p>We help you select the right universities and guide you through the entire application process.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="service-box text-center">
+              <div class="service-icon">
+                <i class="fas fa-passport"></i>
+              </div>
+              <h4>Visa Assistance</h4>
+              <p>Our expert team will help you prepare all documentation for a successful student visa application.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="service-box text-center">
+              <div class="service-icon">
+                <i class="fas fa-home"></i>
+              </div>
+              <h4>Accommodation</h4>
+              <p>We arrange comfortable and affordable housing options near your campus.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="service-box text-center">
+              <div class="service-icon">
+                <i class="fas fa-plane"></i>
+              </div>
+              <h4>Travel Planning</h4>
+              <p>Complete travel arrangements including flights, insurance, and airport pickup.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="service-box text-center">
+              <div class="service-icon">
+                <i class="fas fa-coins"></i>
+              </div>
+              <h4>Scholarship Guidance</h4>
+              <p>Assistance with applications for scholarships, grants, and financial aid opportunities.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="service-box text-center">
+              <div class="service-icon">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <h4>Career Counseling</h4>
+              <p>Expert advice on choosing programs that align with your career goals and future prospects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section bg-light">
+      <div class="container">
+        <h2 class="section-title text-center">Our Simple Process</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="row g-4">
+              <div class="col-md-3 text-center">
+                <div
+                  class="bg-white p-4 rounded-circle shadow d-inline-flex justify-content-center align-items-center mb-3"
+                  style="width: 80px; height: 80px;">
+                  <h3 class="m-0 text-primary">1</h3>
+                </div>
+                <h5>Consultation</h5>
+                <p class="text-muted">Free consultation to understand your educational goals</p>
+              </div>
+              <div class="col-md-3 text-center">
+                <div
+                  class="bg-white p-4 rounded-circle shadow d-inline-flex justify-content-center align-items-center mb-3"
+                  style="width: 80px; height: 80px;">
+                  <h3 class="m-0 text-primary">2</h3>
+                </div>
+                <h5>Application</h5>
+                <p class="text-muted">We handle the complete university application process</p>
+              </div>
+              <div class="col-md-3 text-center">
+                <div
+                  class="bg-white p-4 rounded-circle shadow d-inline-flex justify-content-center align-items-center mb-3"
+                  style="width: 80px; height: 80px;">
+                  <h3 class="m-0 text-primary">3</h3>
+                </div>
+                <h5>Pre-Departure</h5>
+                <p class="text-muted">Visa, accommodation, and travel arrangements</p>
+              </div>
+              <div class="col-md-3 text-center">
+                <div
+                  class="bg-white p-4 rounded-circle shadow d-inline-flex justify-content-center align-items-center mb-3"
+                  style="width: 80px; height: 80px;">
+                  <h3 class="m-0 text-primary">4</h3>
+                </div>
+                <h5>Ongoing Support</h5>
+                <p class="text-muted">Continuous assistance during your study period</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonial-section">
+      <div class="container">
+        <h2 class="section-title text-center">What Our Travelers Say</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="testimonial-card">
+              <p>"Our trip to Japan was absolutely perfect! The attention to detail and personalized itinerary made it a
+                truly unforgettable experience. We'll definitely book with Wanderlust for our next adventure!"</p>
+              <div class="d-flex align-items-center mt-4">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200&auto=format&fit=crop" alt="Maria"
+                  class="testimonial-avatar">
+                <div>
+                  <h5 class="mb-0">Sarah M.</h5>
+                  <p class="mb-0 text-muted">Tokyo Explorer Package</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-card">
+              <p>"From booking to return, everything was seamless. Our guide in Peru was incredibly knowledgeable and made
+                our Machu Picchu trek both educational and exciting. Five stars all around!"</p>
+              <div class="d-flex align-items-center mt-4">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" alt="David"
+                  class="testimonial-avatar">
+                <div>
+                  <h5 class="mb-0">David & Emma R.</h5>
+                  <p class="mb-0 text-muted">Inca Trail Adventure</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-card">
+              <p>"As a solo traveler, I was initially nervous about my African safari, but Wanderlust made me feel safe and
+                cared for throughout. The accommodations were luxurious and the wildlife viewing was spectacular!"</p>
+              <div class="d-flex align-items-center mt-4">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop" alt="Sarah"
+                  class="testimonial-avatar">
+                <div>
+                  <h5 class="mb-0">Michael T.</h5>
+                  <p class="mb-0 text-muted">Serengeti Safari</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container text-center">
+        <h2>Ready for Your Next Adventure?</h2>
+        <p class="mb-4">Sign up for our newsletter and get exclusive deals and travel inspiration.</p>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="newsletter-form">
+              <div class="input-group">
+                <input type="email" class="form-control" placeholder="Your Email Address">
+                <button class="btn btn-primary" type="submit">Subscribe</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="background">
+          <div class="contact-container">
+            <div class="screen">
+              <div class="screen-header">
+                <div class="screen-header-left">
+                  <div class="screen-header-button close"></div>
+                  <div class="screen-header-button maximize"></div>
+                  <div class="screen-header-button minimize"></div>
+                </div>
+                <div class="screen-header-right">
+                  <div class="screen-header-ellipsis"></div>
+                  <div class="screen-header-ellipsis"></div>
+                  <div class="screen-header-ellipsis"></div>
+                </div>
+              </div>
+              <div class="screen-body">
+                <div class="screen-body-item left">
+                  <div class="app-title">
+                    <span>CONTACT</span>
+                    <span>US</span>
+                  </div>
+                  <div class="contact-icons mt-4">
+                    <div class="mt-4">
+                      <a href="#" class="social-icon"><i class="fa fa-envelope"></i></a>
+                      <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                  </div>
+                  <div class="app-contact">CONTACT INFO : +62 81 314 928 595</div>
+                </div>
+                <div class="screen-body-item">
+                  <div class="app-form">
+                    <div class="app-form-group">
+                      <input class="app-form-control" placeholder="NAME" value="Krisantus Wanandi">
+                    </div>
+                    <div class="app-form-group">
+                      <input class="app-form-control" placeholder="EMAIL">
+                    </div>
+                    <div class="app-form-group">
+                      <input class="app-form-control" placeholder="CONTACT NO">
+                    </div>
+                    <div class="app-form-group message">
+                      <input class="app-form-control" placeholder="MESSAGE">
+                    </div>
+                    <div class="app-form-group buttons">
+                      <button class="app-form-button">CANCEL</button>
+                      <button class="app-form-button">SEND</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <h5 class="mb-4">Wanderlust Travel Agency</h5>
+            <p>Specializing in curated travel experiences that create memories to last a lifetime. Let us help you discover
+              the world, one adventure at a time.</p>
+            <div class="mt-4">
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-pinterest"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 mb-5 mb-md-0">
+            <div class="footer-links">
+              <h5>Destinations</h5>
+              <ul>
+                <li><a href="#">Europe</a></li>
+                <li><a href="#">Asia</a></li>
+                <li><a href="#">Africa</a></li>
+                <li><a href="#">North America</a></li>
+                <li><a href="#">South America</a></li>
+                <li><a href="#">Oceania</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 mb-5 mb-md-0">
+            <div class="footer-links">
+              <h5>Company</h5>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Press</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 mb-5 mb-md-0">
+            <div class="footer-links">
+              <h5>Support</h5>
+              <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cancellation Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="footer-links">
+              <h5>Contact</h5>
+              <ul>
+                <li><i class="fas fa-map-marker-alt me-2"></i> 123 Travel St, New York, NY</li>
+                <li><i class="fas fa-phone me-2"></i> (123) 456-7890</li>
+                <li><i class="fas fa-envelope me-2"></i> info@wanderlust.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="text-center copyright text-white">
+          <p>© 2025 AbroadThings. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+  
+</html>
